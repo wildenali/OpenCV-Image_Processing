@@ -34,9 +34,9 @@ while True:
     # Bitwise AND mask and origina image
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
-    cv2.imshow('1. Ambil setiap frame dari video', frame)
-    cv2.imshow('3. Atur rentang threshold HSV untuk warna BIRU misalnya', mask)
-    cv2.imshow('4. Ekstrak Objek biru', res)
+    cv2.imshow("1. Ambil setiap frame dari video", frame)
+    cv2.imshow("3. Atur rentang threshold HSV untuk warna BIRU misalnya", mask)
+    cv2.imshow("4. Ekstrak Objek biru", res)
 
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
